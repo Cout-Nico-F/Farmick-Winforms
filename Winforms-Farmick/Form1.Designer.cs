@@ -346,9 +346,9 @@
       this.label1.ForeColor = System.Drawing.Color.Goldenrod;
       this.label1.Location = new System.Drawing.Point(240, 256);
       this.label1.Name = "label1";
-      this.label1.Size = new System.Drawing.Size(330, 23);
+      this.label1.Size = new System.Drawing.Size(278, 23);
       this.label1.TabIndex = 17;
-      this.label1.Text = "HOLD CLICK TO SEED THE FARM!";
+      this.label1.Text = "Hold click on a farm to seed it!";
       // 
       // Form1
       // 
