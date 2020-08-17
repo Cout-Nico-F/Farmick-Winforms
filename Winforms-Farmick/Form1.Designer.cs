@@ -29,7 +29,7 @@
     private void InitializeComponent()
     {
       this.btn_market = new System.Windows.Forms.Button();
-      this.btn_farm1 = new System.Windows.Forms.Button();
+      this.btn_farm1 = new Farm();
       this.pictureBox1 = new System.Windows.Forms.PictureBox();
       this.btn_farm7 = new System.Windows.Forms.Button();
       this.btn_farm2 = new System.Windows.Forms.Button();
@@ -344,11 +344,11 @@
       this.label1.BackColor = System.Drawing.Color.Transparent;
       this.label1.Font = new System.Drawing.Font("Ink Free", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
       this.label1.ForeColor = System.Drawing.Color.Goldenrod;
-      this.label1.Location = new System.Drawing.Point(240, 256);
+      this.label1.Location = new System.Drawing.Point(243, 254);
       this.label1.Name = "label1";
-      this.label1.Size = new System.Drawing.Size(330, 23);
+      this.label1.Size = new System.Drawing.Size(278, 23);
       this.label1.TabIndex = 17;
-      this.label1.Text = "HOLD CLICK TO SEED THE FARM!";
+      this.label1.Text = "Hold click on a farm to seed it!";
       // 
       // Form1
       // 
@@ -389,7 +389,7 @@
 
     #endregion
 
-    private System.Windows.Forms.Button btn_farm1;
+    private Farm btn_farm1;
     private System.Windows.Forms.Button btn_market;
     private System.Windows.Forms.PictureBox pictureBox1;
     private System.Windows.Forms.Button btn_farm7;
