@@ -24,7 +24,7 @@ namespace Winforms_Farmick
       actualButton = button ;
       System.Windows.Forms.Cursor.Current = System.Windows.Forms.Cursors.WaitCursor;
       timer_hold = new Timer();
-      timer_hold.Interval = 2000;
+      timer_hold.Interval = 1600;
       timer_hold.Tick += ChangeState;
       timer_hold.Start();
     }

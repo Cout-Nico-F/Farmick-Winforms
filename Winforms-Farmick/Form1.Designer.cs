@@ -43,6 +43,7 @@
       this.btn_farm11 = new System.Windows.Forms.Button();
       this.btn_farm5 = new System.Windows.Forms.Button();
       this.btn_Tutorial = new System.Windows.Forms.Button();
+      this.label1 = new System.Windows.Forms.Label();
       ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
       this.SuspendLayout();
       // 
@@ -319,6 +320,7 @@
       // btn_Tutorial
       // 
       this.btn_Tutorial.BackColor = System.Drawing.Color.Transparent;
+      this.btn_Tutorial.BackgroundImage = global::Winforms_Farmick.Properties.Resources.background;
       this.btn_Tutorial.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
       this.btn_Tutorial.FlatAppearance.BorderSize = 0;
       this.btn_Tutorial.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -326,15 +328,27 @@
       this.btn_Tutorial.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
       this.btn_Tutorial.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
       this.btn_Tutorial.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+      this.btn_Tutorial.Image = global::Winforms_Farmick.Properties.Resources.tutorial1;
       this.btn_Tutorial.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
       this.btn_Tutorial.Location = new System.Drawing.Point(0, -1);
       this.btn_Tutorial.Name = "btn_Tutorial";
       this.btn_Tutorial.Size = new System.Drawing.Size(801, 453);
       this.btn_Tutorial.TabIndex = 16;
-      this.btn_Tutorial.Text = "HOLD CLICK TO CONTINUE";
       this.btn_Tutorial.UseVisualStyleBackColor = false;
       this.btn_Tutorial.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btn_Tutorial_MouseDown);
       this.btn_Tutorial.MouseUp += new System.Windows.Forms.MouseEventHandler(this.btn_Tutorial_MouseUp);
+      // 
+      // label1
+      // 
+      this.label1.AutoSize = true;
+      this.label1.BackColor = System.Drawing.Color.Transparent;
+      this.label1.Font = new System.Drawing.Font("Ink Free", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+      this.label1.ForeColor = System.Drawing.Color.Goldenrod;
+      this.label1.Location = new System.Drawing.Point(240, 256);
+      this.label1.Name = "label1";
+      this.label1.Size = new System.Drawing.Size(330, 23);
+      this.label1.TabIndex = 17;
+      this.label1.Text = "HOLD CLICK TO SEED THE FARM!";
       // 
       // Form1
       // 
@@ -343,6 +357,7 @@
       this.BackgroundImage = global::Winforms_Farmick.Properties.Resources.background;
       this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
       this.ClientSize = new System.Drawing.Size(800, 450);
+      this.Controls.Add(this.label1);
       this.Controls.Add(this.btn_farm12);
       this.Controls.Add(this.btn_farm6);
       this.Controls.Add(this.btn_farm11);
@@ -359,11 +374,16 @@
       this.Controls.Add(this.pictureBox1);
       this.Controls.Add(this.btn_Tutorial);
       this.DoubleBuffered = true;
+      this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+      this.MaximumSize = new System.Drawing.Size(816, 489);
+      this.MinimumSize = new System.Drawing.Size(816, 489);
       this.Name = "Form1";
-      this.Text = "Form1";
+      this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+      this.Text = "Farmick! v0.1";
       this.Load += new System.EventHandler(this.Form1_Load);
       ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
       this.ResumeLayout(false);
+      this.PerformLayout();
 
     }
 
@@ -384,6 +404,7 @@
     private System.Windows.Forms.Button btn_farm11;
     private System.Windows.Forms.Button btn_farm5;
     private System.Windows.Forms.Button btn_Tutorial;
+    private System.Windows.Forms.Label label1;
   }
 }
 
