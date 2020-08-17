@@ -16,21 +16,35 @@ namespace Winforms_Farmick
     public Form1()
     {
       InitializeComponent();
+      this.Opacity = 0;
     }
 
     private void btn_farm_MouseDown(object sender, MouseEventArgs e)
     {
       if (e.Button == MouseButtons.Left)
       {
-       
         ChangeState_Hold(sender as Button);
       }  
     }
 
     private void btn_farm_MouseUp(object sender, MouseEventArgs e)
     {
-      t.Stop();
-      t = null;
+      timer_hold.Stop();
+      timer_hold = null;
+    }
+
+    private void btn_Tutorial_MouseDown(object sender, MouseEventArgs e)
+    {
+      if (e.Button == MouseButtons.Left)
+      {
+        Hold_SkipTutorial();
+      }
+    }
+
+    private void btn_Tutorial_MouseUp(object sender, MouseEventArgs e)
+    {
+      timer_SkipTutorial.Stop();
+      timer_SkipTutorial = null;
     }
   }
 }

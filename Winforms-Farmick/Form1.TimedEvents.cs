@@ -11,11 +11,11 @@ namespace Winforms_Farmick
   partial class Form1 : Form
   {
     private Button actualButton ;
-    private Timer t = new Timer();
+    private Timer timer_hold = new Timer();
 
     private void ChangeState(object sender, EventArgs e)
     {
-      t.Stop();
+      timer_hold.Stop();
       System.Windows.Forms.Cursor.Current = System.Windows.Forms.Cursors.Hand;
       actualButton.Image = Resources.cultivo_crecido;//placeholder action.
     }
@@ -23,11 +23,10 @@ namespace Winforms_Farmick
     {
       actualButton = button ;
       System.Windows.Forms.Cursor.Current = System.Windows.Forms.Cursors.WaitCursor;
-      t = new Timer();
-      t.Interval = 2000;
-      t.Tick += ChangeState;
-      t.Start();
+      timer_hold = new Timer();
+      timer_hold.Interval = 2000;
+      timer_hold.Tick += ChangeState;
+      timer_hold.Start();
     }
-
   }
 }

@@ -42,6 +42,7 @@
       this.btn_farm6 = new System.Windows.Forms.Button();
       this.btn_farm11 = new System.Windows.Forms.Button();
       this.btn_farm5 = new System.Windows.Forms.Button();
+      this.btn_Tutorial = new System.Windows.Forms.Button();
       ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
       this.SuspendLayout();
       // 
@@ -315,6 +316,21 @@
       this.btn_farm5.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btn_farm_MouseDown);
       this.btn_farm5.MouseUp += new System.Windows.Forms.MouseEventHandler(this.btn_farm_MouseUp);
       // 
+      // btn_Tutorial
+      // 
+      this.btn_Tutorial.BackColor = System.Drawing.Color.Transparent;
+      this.btn_Tutorial.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+      this.btn_Tutorial.FlatAppearance.BorderSize = 0;
+      this.btn_Tutorial.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+      this.btn_Tutorial.Image = global::Winforms_Farmick.Properties.Resources.click;
+      this.btn_Tutorial.Location = new System.Drawing.Point(0, -1);
+      this.btn_Tutorial.Name = "btn_Tutorial";
+      this.btn_Tutorial.Size = new System.Drawing.Size(801, 453);
+      this.btn_Tutorial.TabIndex = 16;
+      this.btn_Tutorial.UseVisualStyleBackColor = false;
+      this.btn_Tutorial.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btn_Tutorial_MouseDown);
+      this.btn_Tutorial.MouseUp += new System.Windows.Forms.MouseEventHandler(this.btn_Tutorial_MouseUp);
+      // 
       // Form1
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -322,6 +338,7 @@
       this.BackgroundImage = global::Winforms_Farmick.Properties.Resources.background;
       this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
       this.ClientSize = new System.Drawing.Size(800, 450);
+      this.Controls.Add(this.btn_Tutorial);
       this.Controls.Add(this.btn_farm12);
       this.Controls.Add(this.btn_farm6);
       this.Controls.Add(this.btn_farm11);
@@ -339,6 +356,7 @@
       this.DoubleBuffered = true;
       this.Name = "Form1";
       this.Text = "Form1";
+      this.Load += new System.EventHandler(this.Form1_Load);
       ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
       this.ResumeLayout(false);
 
@@ -360,6 +378,7 @@
     private System.Windows.Forms.Button btn_farm6;
     private System.Windows.Forms.Button btn_farm11;
     private System.Windows.Forms.Button btn_farm5;
+    private System.Windows.Forms.Button btn_Tutorial;
   }
 }
 
