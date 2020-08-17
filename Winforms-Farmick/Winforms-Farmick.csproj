@@ -46,7 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Ichange.cs" />
+    <Compile Include="Farm.cs" />
+    <Compile Include="FarmButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="IChange.cs" />
     <Compile Include="Form1.Fader.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -61,7 +65,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Square.cs" />
     <Compile Include="state0_atSale.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

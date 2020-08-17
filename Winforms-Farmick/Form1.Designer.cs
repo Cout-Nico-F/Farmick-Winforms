@@ -29,7 +29,7 @@
     private void InitializeComponent()
     {
       this.btn_market = new System.Windows.Forms.Button();
-      this.btn_farm1 = new System.Windows.Forms.Button();
+      this.btn_farm1 = new FarmButton(/*InitialState*/);
       this.pictureBox1 = new System.Windows.Forms.PictureBox();
       this.btn_farm7 = new System.Windows.Forms.Button();
       this.btn_farm2 = new System.Windows.Forms.Button();
@@ -389,7 +389,7 @@
 
     #endregion
 
-    private System.Windows.Forms.Button btn_farm1;
+    private FarmButton btn_farm1;
     private System.Windows.Forms.Button btn_market;
     private System.Windows.Forms.PictureBox pictureBox1;
     private System.Windows.Forms.Button btn_farm7;
