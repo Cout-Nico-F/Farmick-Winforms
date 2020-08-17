@@ -30,14 +30,13 @@ namespace Winforms_Farmick
     {
       timer_SkipTutorial.Stop();
       System.Windows.Forms.Cursor.Current = System.Windows.Forms.Cursors.Hand;
-      //(sender as Button).Dispose();
       btn_Tutorial.Dispose();
     }
     private void Hold_SkipTutorial()
     {
       System.Windows.Forms.Cursor.Current = System.Windows.Forms.Cursors.WaitCursor;
       timer_SkipTutorial = new Timer();
-      timer_SkipTutorial.Interval = 2000;
+      timer_SkipTutorial.Interval = 1000;
       timer_SkipTutorial.Tick += SkipTutorial;
       timer_SkipTutorial.Start();
     }

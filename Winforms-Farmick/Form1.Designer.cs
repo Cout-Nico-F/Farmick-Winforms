@@ -322,11 +322,14 @@
       this.btn_Tutorial.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
       this.btn_Tutorial.FlatAppearance.BorderSize = 0;
       this.btn_Tutorial.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-      this.btn_Tutorial.Image = global::Winforms_Farmick.Properties.Resources.click;
+      this.btn_Tutorial.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+      this.btn_Tutorial.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+      this.btn_Tutorial.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
       this.btn_Tutorial.Location = new System.Drawing.Point(0, -1);
       this.btn_Tutorial.Name = "btn_Tutorial";
       this.btn_Tutorial.Size = new System.Drawing.Size(801, 453);
       this.btn_Tutorial.TabIndex = 16;
+      this.btn_Tutorial.Text = "HOLD CLICK TO CONTINUE";
       this.btn_Tutorial.UseVisualStyleBackColor = false;
       this.btn_Tutorial.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btn_Tutorial_MouseDown);
       this.btn_Tutorial.MouseUp += new System.Windows.Forms.MouseEventHandler(this.btn_Tutorial_MouseUp);
@@ -338,7 +341,6 @@
       this.BackgroundImage = global::Winforms_Farmick.Properties.Resources.background;
       this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
       this.ClientSize = new System.Drawing.Size(800, 450);
-      this.Controls.Add(this.btn_Tutorial);
       this.Controls.Add(this.btn_farm12);
       this.Controls.Add(this.btn_farm6);
       this.Controls.Add(this.btn_farm11);
@@ -353,6 +355,7 @@
       this.Controls.Add(this.btn_market);
       this.Controls.Add(this.btn_farm1);
       this.Controls.Add(this.pictureBox1);
+      this.Controls.Add(this.btn_Tutorial);
       this.DoubleBuffered = true;
       this.Name = "Form1";
       this.Text = "Form1";

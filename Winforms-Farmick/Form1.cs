@@ -17,6 +17,7 @@ namespace Winforms_Farmick
     {
       InitializeComponent();
       this.Opacity = 0;
+      btn_Tutorial.BringToFront();
     }
 
     private void btn_farm_MouseDown(object sender, MouseEventArgs e)
