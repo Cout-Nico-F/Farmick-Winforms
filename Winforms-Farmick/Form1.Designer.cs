@@ -321,6 +321,8 @@
       this.btn_Tutorial.BackColor = System.Drawing.Color.Transparent;
       this.btn_Tutorial.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
       this.btn_Tutorial.FlatAppearance.BorderSize = 0;
+      this.btn_Tutorial.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+      this.btn_Tutorial.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
       this.btn_Tutorial.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
       this.btn_Tutorial.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
       this.btn_Tutorial.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
