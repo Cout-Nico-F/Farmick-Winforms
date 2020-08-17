@@ -24,7 +24,7 @@ namespace Winforms_Farmick
     {
       if (e.Button == MouseButtons.Left)
       {
-        ChangeState_Hold(sender as Button);
+        ChangeState_Hold(sender as FarmButton);
       }  
     }
 

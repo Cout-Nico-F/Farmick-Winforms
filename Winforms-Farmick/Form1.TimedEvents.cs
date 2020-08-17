@@ -10,17 +10,17 @@ namespace Winforms_Farmick
 {
   partial class Form1 : Form
   {
-    private Button actualButton ;
+    private FarmButton actualButton ;
     private Timer timer_hold = new Timer();
 
     private void ChangeState(object sender, EventArgs e)
     {
       timer_hold.Stop();
       System.Windows.Forms.Cursor.Current = System.Windows.Forms.Cursors.Hand;
-      //Poke(actualButton);
+      actualButton.Poke();
       actualButton.Image = Resources.cultivo_crecido;//placeholder action.
     }
-    private void ChangeState_Hold(Button button)
+    private void ChangeState_Hold(FarmButton button)
     {
       actualButton = button ;
       System.Windows.Forms.Cursor.Current = System.Windows.Forms.Cursors.WaitCursor;

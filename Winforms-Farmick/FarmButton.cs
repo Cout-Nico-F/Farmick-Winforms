@@ -11,8 +11,8 @@ namespace Winforms_Farmick
   class FarmButton : Button, IChange
   {
     public void Poke()
-    { 
-
+    {
+      MessageBox.Show("Increible");
     }
   }
 }
