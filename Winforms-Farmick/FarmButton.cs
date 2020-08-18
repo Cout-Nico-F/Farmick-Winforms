@@ -16,6 +16,7 @@ namespace Winforms_Farmick
     {
       this.state = state;
     }
+    public FarmButton() { }
     public void Poke(FarmButton context_FarmButton)
     {
       state.Poke(context_FarmButton);

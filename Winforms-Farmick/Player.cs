@@ -15,9 +15,19 @@ namespace Winforms_Farmick
       get { return coins; }
       set { coins = value; }
     }
-    public Player()
+    private Player()
     {
       this.coins = 200;
+    }
+
+    private readonly static Player _instance = new Player();
+
+    public static Player Instance
+    {
+      get
+      {
+        return _instance;
+      }
     }
     public bool HasCoins(int ammount)
     {

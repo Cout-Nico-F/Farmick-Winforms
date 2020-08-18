@@ -19,21 +19,7 @@
       }
       base.Dispose(disposing);
     }
-    /*private void InitFarmButtons()
-    {
-      this.btn_farm1 = new FarmButton(new state0_atSale());
-      this.btn_farm2 = new FarmButton(new state0_atSale());
-      this.btn_farm3 = new FarmButton(new state1_terrain());
-      this.btn_farm4 = new FarmButton(new state1_terrain());
-      this.btn_farm5 = new FarmButton(new state0_atSale());
-      this.btn_farm6 = new FarmButton(new state0_atSale());
-      this.btn_farm7 = new FarmButton(new state0_atSale());
-      this.btn_farm8 = new FarmButton(new state0_atSale());
-      this.btn_farm9 = new FarmButton(new state0_atSale());
-      this.btn_farm10 = new FarmButton(new state0_atSale());
-      this.btn_farm11 = new FarmButton(new state0_atSale());
-      this.btn_farm12 = new FarmButton(new state0_atSale());
-    }
+    /*
     */
     #region Windows Form Designer generated code
 
@@ -43,18 +29,18 @@
     /// </summary>
     private void InitializeComponent()
     {
-      this.btn_farm1 = new FarmButton(new state0_atSale());
-      this.btn_farm2 = new FarmButton(new state0_atSale());
-      this.btn_farm3 = new FarmButton(new state1_terrain());
-      this.btn_farm4 = new FarmButton(new state1_terrain());
-      this.btn_farm5 = new FarmButton(new state0_atSale());
-      this.btn_farm6 = new FarmButton(new state0_atSale());
-      this.btn_farm7 = new FarmButton(new state0_atSale());
-      this.btn_farm8 = new FarmButton(new state0_atSale());
-      this.btn_farm9 = new FarmButton(new state0_atSale());
-      this.btn_farm10 = new FarmButton(new state0_atSale());
-      this.btn_farm11 = new FarmButton(new state0_atSale());
-      this.btn_farm12 = new FarmButton(new state0_atSale());
+      this.btn_farm1 = new Winforms_Farmick.FarmButton();
+      this.btn_farm2 = new Winforms_Farmick.FarmButton();
+      this.btn_farm3 = new Winforms_Farmick.FarmButton();
+      this.btn_farm4 = new Winforms_Farmick.FarmButton();
+      this.btn_farm5 = new Winforms_Farmick.FarmButton();
+      this.btn_farm6 = new Winforms_Farmick.FarmButton();
+      this.btn_farm7 = new Winforms_Farmick.FarmButton();
+      this.btn_farm8 = new Winforms_Farmick.FarmButton();
+      this.btn_farm9 = new Winforms_Farmick.FarmButton();
+      this.btn_farm10 = new Winforms_Farmick.FarmButton();
+      this.btn_farm11 = new Winforms_Farmick.FarmButton();
+      this.btn_farm12 = new Winforms_Farmick.FarmButton();
       this.btn_market = new System.Windows.Forms.Button();
       this.pictureBox1 = new System.Windows.Forms.PictureBox();
       this.btn_Tutorial = new System.Windows.Forms.Button();
@@ -80,6 +66,7 @@
       this.btn_farm1.Location = new System.Drawing.Point(45, 280);
       this.btn_farm1.Name = "btn_farm1";
       this.btn_farm1.Size = new System.Drawing.Size(102, 71);
+      this.btn_farm1.State = null;
       this.btn_farm1.TabIndex = 0;
       this.btn_farm1.UseVisualStyleBackColor = false;
       this.btn_farm1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btn_farm_MouseDown);
@@ -99,6 +86,7 @@
       this.btn_farm2.Location = new System.Drawing.Point(153, 280);
       this.btn_farm2.Name = "btn_farm2";
       this.btn_farm2.Size = new System.Drawing.Size(102, 71);
+      this.btn_farm2.State = null;
       this.btn_farm2.TabIndex = 6;
       this.btn_farm2.UseVisualStyleBackColor = false;
       this.btn_farm2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btn_farm_MouseDown);
@@ -119,6 +107,7 @@
       this.btn_farm3.Location = new System.Drawing.Point(261, 280);
       this.btn_farm3.Name = "btn_farm3";
       this.btn_farm3.Size = new System.Drawing.Size(102, 71);
+      this.btn_farm3.State = null;
       this.btn_farm3.TabIndex = 8;
       this.btn_farm3.UseVisualStyleBackColor = false;
       this.btn_farm3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btn_farm_MouseDown);
@@ -138,6 +127,7 @@
       this.btn_farm4.Location = new System.Drawing.Point(369, 280);
       this.btn_farm4.Name = "btn_farm4";
       this.btn_farm4.Size = new System.Drawing.Size(102, 71);
+      this.btn_farm4.State = null;
       this.btn_farm4.TabIndex = 10;
       this.btn_farm4.UseVisualStyleBackColor = false;
       this.btn_farm4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btn_farm_MouseDown);
@@ -158,6 +148,7 @@
       this.btn_farm5.Location = new System.Drawing.Point(474, 280);
       this.btn_farm5.Name = "btn_farm5";
       this.btn_farm5.Size = new System.Drawing.Size(102, 71);
+      this.btn_farm5.State = null;
       this.btn_farm5.TabIndex = 12;
       this.btn_farm5.UseVisualStyleBackColor = false;
       this.btn_farm5.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btn_farm_MouseDown);
@@ -177,6 +168,7 @@
       this.btn_farm6.Location = new System.Drawing.Point(582, 280);
       this.btn_farm6.Name = "btn_farm6";
       this.btn_farm6.Size = new System.Drawing.Size(102, 71);
+      this.btn_farm6.State = null;
       this.btn_farm6.TabIndex = 14;
       this.btn_farm6.UseVisualStyleBackColor = false;
       this.btn_farm6.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btn_farm_MouseDown);
@@ -197,6 +189,7 @@
       this.btn_farm7.Location = new System.Drawing.Point(45, 357);
       this.btn_farm7.Name = "btn_farm7";
       this.btn_farm7.Size = new System.Drawing.Size(102, 71);
+      this.btn_farm7.State = null;
       this.btn_farm7.TabIndex = 2;
       this.btn_farm7.UseVisualStyleBackColor = false;
       this.btn_farm7.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btn_farm_MouseDown);
@@ -217,6 +210,7 @@
       this.btn_farm8.Location = new System.Drawing.Point(153, 357);
       this.btn_farm8.Name = "btn_farm8";
       this.btn_farm8.Size = new System.Drawing.Size(102, 71);
+      this.btn_farm8.State = null;
       this.btn_farm8.TabIndex = 7;
       this.btn_farm8.UseVisualStyleBackColor = false;
       this.btn_farm8.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btn_farm_MouseDown);
@@ -237,6 +231,7 @@
       this.btn_farm9.Location = new System.Drawing.Point(261, 357);
       this.btn_farm9.Name = "btn_farm9";
       this.btn_farm9.Size = new System.Drawing.Size(102, 71);
+      this.btn_farm9.State = null;
       this.btn_farm9.TabIndex = 9;
       this.btn_farm9.UseVisualStyleBackColor = false;
       this.btn_farm9.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btn_farm_MouseDown);
@@ -257,6 +252,7 @@
       this.btn_farm10.Location = new System.Drawing.Point(369, 357);
       this.btn_farm10.Name = "btn_farm10";
       this.btn_farm10.Size = new System.Drawing.Size(102, 71);
+      this.btn_farm10.State = null;
       this.btn_farm10.TabIndex = 11;
       this.btn_farm10.UseVisualStyleBackColor = false;
       this.btn_farm10.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btn_farm_MouseDown);
@@ -277,6 +273,7 @@
       this.btn_farm11.Location = new System.Drawing.Point(474, 357);
       this.btn_farm11.Name = "btn_farm11";
       this.btn_farm11.Size = new System.Drawing.Size(102, 71);
+      this.btn_farm11.State = null;
       this.btn_farm11.TabIndex = 13;
       this.btn_farm11.UseVisualStyleBackColor = false;
       this.btn_farm11.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btn_farm_MouseDown);
@@ -297,6 +294,7 @@
       this.btn_farm12.Location = new System.Drawing.Point(582, 357);
       this.btn_farm12.Name = "btn_farm12";
       this.btn_farm12.Size = new System.Drawing.Size(102, 71);
+      this.btn_farm12.State = null;
       this.btn_farm12.TabIndex = 15;
       this.btn_farm12.UseVisualStyleBackColor = false;
       this.btn_farm12.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btn_farm_MouseDown);
