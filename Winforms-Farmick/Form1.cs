@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -20,10 +21,15 @@ namespace Winforms_Farmick
       
       this.Opacity = 0;
       btn_Tutorial.BringToFront();
+      InitFarmButtons();
 
     }
 
-    
+    protected override void OnLoad(EventArgs e)
+    {
+      base.OnLoad(e);
+      
+    }
 
     private void btn_farm_MouseDown(object sender, MouseEventArgs e)
     {
@@ -46,11 +52,26 @@ namespace Winforms_Farmick
         Hold_SkipTutorial();
       }
     }
-
     private void btn_Tutorial_MouseUp(object sender, MouseEventArgs e)
     {
       timer_SkipTutorial.Stop();
       timer_SkipTutorial = null;
+    }
+
+    private void InitFarmButtons()
+    {
+      this.btn_farm1.State = new state0_atSale();
+      this.btn_farm2.State = new state0_atSale();
+      this.btn_farm3.State = new state1_terrain();
+      this.btn_farm4.State = new state1_terrain();
+      this.btn_farm5.State = new state0_atSale();
+      this.btn_farm6.State = new state0_atSale();
+      this.btn_farm7.State = new state0_atSale();
+      this.btn_farm8.State = new state0_atSale();
+      this.btn_farm9.State = new state0_atSale();
+      this.btn_farm10.State = new state0_atSale();
+      this.btn_farm11.State = new state0_atSale();
+      this.btn_farm12.State = new state0_atSale();
     }
   }
 }

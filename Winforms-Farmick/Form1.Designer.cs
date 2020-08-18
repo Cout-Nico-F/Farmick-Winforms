@@ -19,21 +19,7 @@
       }
       base.Dispose(disposing);
     }
-    /*private void InitFarmButtons()
-    {
-      this.btn_farm1 = new FarmButton(new state0_atSale());
-      this.btn_farm2 = new FarmButton(new state0_atSale());
-      this.btn_farm3 = new FarmButton(new state1_terrain());
-      this.btn_farm4 = new FarmButton(new state1_terrain());
-      this.btn_farm5 = new FarmButton(new state0_atSale());
-      this.btn_farm6 = new FarmButton(new state0_atSale());
-      this.btn_farm7 = new FarmButton(new state0_atSale());
-      this.btn_farm8 = new FarmButton(new state0_atSale());
-      this.btn_farm9 = new FarmButton(new state0_atSale());
-      this.btn_farm10 = new FarmButton(new state0_atSale());
-      this.btn_farm11 = new FarmButton(new state0_atSale());
-      this.btn_farm12 = new FarmButton(new state0_atSale());
-    }
+    /*
     */
     #region Windows Form Designer generated code
 
@@ -43,18 +29,18 @@
     /// </summary>
     private void InitializeComponent()
     {
-      this.btn_farm1 = new FarmButton(new state0_atSale());
-      this.btn_farm2 = new FarmButton(new state0_atSale());
-      this.btn_farm3 = new FarmButton(new state1_terrain());
-      this.btn_farm4 = new FarmButton(new state1_terrain());
-      this.btn_farm5 = new FarmButton(new state0_atSale());
-      this.btn_farm6 = new FarmButton(new state0_atSale());
-      this.btn_farm7 = new FarmButton(new state0_atSale());
-      this.btn_farm8 = new FarmButton(new state0_atSale());
-      this.btn_farm9 = new FarmButton(new state0_atSale());
-      this.btn_farm10 = new FarmButton(new state0_atSale());
-      this.btn_farm11 = new FarmButton(new state0_atSale());
-      this.btn_farm12 = new FarmButton(new state0_atSale());
+      this.btn_farm1 = new FarmButton();
+      this.btn_farm2 = new FarmButton();
+      this.btn_farm3 = new FarmButton();
+      this.btn_farm4 = new FarmButton();
+      this.btn_farm5 = new FarmButton();
+      this.btn_farm6 = new FarmButton();
+      this.btn_farm7 = new FarmButton();
+      this.btn_farm8 = new FarmButton();
+      this.btn_farm9 = new FarmButton();
+      this.btn_farm10 = new FarmButton();
+      this.btn_farm11 = new FarmButton();
+      this.btn_farm12 = new FarmButton();
       this.btn_market = new System.Windows.Forms.Button();
       this.pictureBox1 = new System.Windows.Forms.PictureBox();
       this.btn_Tutorial = new System.Windows.Forms.Button();
