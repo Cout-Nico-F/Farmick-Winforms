@@ -30,8 +30,8 @@
     {
       this.btn_farm1 = new FarmButton(new state0_atSale());
       this.btn_farm2 = new FarmButton(new state0_atSale());
-      this.btn_farm3 = new FarmButton(new state0_atSale());
-      this.btn_farm4 = new FarmButton(new state0_atSale());
+      this.btn_farm3 = new FarmButton(new state1_terrain());
+      this.btn_farm4 = new FarmButton(new state1_terrain());
       this.btn_farm5 = new FarmButton(new state0_atSale());
       this.btn_farm6 = new FarmButton(new state0_atSale());
       this.btn_farm7 = new FarmButton(new state0_atSale());
@@ -80,7 +80,7 @@
       this.btn_farm1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
       this.btn_farm1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
       this.btn_farm1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-      this.btn_farm1.Image = global::Winforms_Farmick.Properties.Resources.cultivo_arado;
+      this.btn_farm1.Image = global::Winforms_Farmick.Properties.Resources.cultivo_terreno;
       this.btn_farm1.Location = new System.Drawing.Point(45, 280);
       this.btn_farm1.Name = "btn_farm1";
       this.btn_farm1.Size = new System.Drawing.Size(102, 71);
@@ -111,7 +111,7 @@
       this.btn_farm7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
       this.btn_farm7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
       this.btn_farm7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-      this.btn_farm7.Image = global::Winforms_Farmick.Properties.Resources.cultivo_arado;
+      this.btn_farm7.Image = global::Winforms_Farmick.Properties.Resources.cultivo_terreno;
       this.btn_farm7.Location = new System.Drawing.Point(45, 357);
       this.btn_farm7.Name = "btn_farm7";
       this.btn_farm7.Size = new System.Drawing.Size(102, 71);
@@ -130,7 +130,7 @@
       this.btn_farm2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
       this.btn_farm2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
       this.btn_farm2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-      this.btn_farm2.Image = global::Winforms_Farmick.Properties.Resources.cultivo_arado;
+      this.btn_farm2.Image = global::Winforms_Farmick.Properties.Resources.cultivo_terreno;
       this.btn_farm2.Location = new System.Drawing.Point(153, 280);
       this.btn_farm2.Name = "btn_farm2";
       this.btn_farm2.Size = new System.Drawing.Size(102, 71);
@@ -150,7 +150,7 @@
       this.btn_farm8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
       this.btn_farm8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
       this.btn_farm8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-      this.btn_farm8.Image = global::Winforms_Farmick.Properties.Resources.cultivo_arado;
+      this.btn_farm8.Image = global::Winforms_Farmick.Properties.Resources.cultivo_terreno;
       this.btn_farm8.Location = new System.Drawing.Point(153, 357);
       this.btn_farm8.Name = "btn_farm8";
       this.btn_farm8.Size = new System.Drawing.Size(102, 71);
@@ -170,7 +170,7 @@
       this.btn_farm10.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
       this.btn_farm10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
       this.btn_farm10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-      this.btn_farm10.Image = global::Winforms_Farmick.Properties.Resources.cultivo_arado;
+      this.btn_farm10.Image = global::Winforms_Farmick.Properties.Resources.cultivo_terreno;
       this.btn_farm10.Location = new System.Drawing.Point(369, 357);
       this.btn_farm10.Name = "btn_farm10";
       this.btn_farm10.Size = new System.Drawing.Size(102, 71);
@@ -209,7 +209,7 @@
       this.btn_farm9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
       this.btn_farm9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
       this.btn_farm9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-      this.btn_farm9.Image = global::Winforms_Farmick.Properties.Resources.cultivo_arado;
+      this.btn_farm9.Image = global::Winforms_Farmick.Properties.Resources.cultivo_terreno;
       this.btn_farm9.Location = new System.Drawing.Point(261, 357);
       this.btn_farm9.Name = "btn_farm9";
       this.btn_farm9.Size = new System.Drawing.Size(102, 71);
@@ -249,7 +249,7 @@
       this.btn_farm12.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
       this.btn_farm12.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
       this.btn_farm12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-      this.btn_farm12.Image = global::Winforms_Farmick.Properties.Resources.cultivo_arado;
+      this.btn_farm12.Image = global::Winforms_Farmick.Properties.Resources.cultivo_terreno;
       this.btn_farm12.Location = new System.Drawing.Point(582, 357);
       this.btn_farm12.Name = "btn_farm12";
       this.btn_farm12.Size = new System.Drawing.Size(102, 71);
@@ -268,7 +268,7 @@
       this.btn_farm6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
       this.btn_farm6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
       this.btn_farm6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-      this.btn_farm6.Image = global::Winforms_Farmick.Properties.Resources.cultivo_arado;
+      this.btn_farm6.Image = global::Winforms_Farmick.Properties.Resources.cultivo_terreno;
       this.btn_farm6.Location = new System.Drawing.Point(582, 280);
       this.btn_farm6.Name = "btn_farm6";
       this.btn_farm6.Size = new System.Drawing.Size(102, 71);
@@ -288,7 +288,7 @@
       this.btn_farm11.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
       this.btn_farm11.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
       this.btn_farm11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-      this.btn_farm11.Image = global::Winforms_Farmick.Properties.Resources.cultivo_arado;
+      this.btn_farm11.Image = global::Winforms_Farmick.Properties.Resources.cultivo_terreno;
       this.btn_farm11.Location = new System.Drawing.Point(474, 357);
       this.btn_farm11.Name = "btn_farm11";
       this.btn_farm11.Size = new System.Drawing.Size(102, 71);
@@ -308,7 +308,7 @@
       this.btn_farm5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
       this.btn_farm5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
       this.btn_farm5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-      this.btn_farm5.Image = global::Winforms_Farmick.Properties.Resources.cultivo_arado;
+      this.btn_farm5.Image = global::Winforms_Farmick.Properties.Resources.cultivo_terreno;
       this.btn_farm5.Location = new System.Drawing.Point(474, 280);
       this.btn_farm5.Name = "btn_farm5";
       this.btn_farm5.Size = new System.Drawing.Size(102, 71);

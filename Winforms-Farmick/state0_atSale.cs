@@ -6,6 +6,7 @@ using System.Net.Cache;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Winforms_Farmick.Properties;
 
 namespace Winforms_Farmick
 {
@@ -13,14 +14,20 @@ namespace Winforms_Farmick
   {
     //i need to change the sprite based on the state too
 
+    public state0_atSale (FarmButton context_FarmButton)
+    {
+      context_FarmButton.Image = Resources.cultivo_terreno;
+    }
+    public state0_atSale() { }
     public void Poke(FarmButton context_FarmButton)
     {
       //you can buy this farms holding click spending coins.
       //(you have enough coins)? change_to_state1 : you_cant_buy_message
       if (true)
       {
-        context_FarmButton.State = new state1_terrain();
-        System.Windows.Forms.MessageBox.Show("Cambio a estado 1");
+        context_FarmButton.State = new state1_terrain(context_FarmButton);
+        //System.Windows.Forms.MessageBox.Show("Cambio a estado 1");
+        context_FarmButton.Image = Resources.cultivo_arado;
       }
     }
   }
