@@ -68,6 +68,7 @@
     <Compile Include="state0_atSale.cs" />
     <Compile Include="state1_terrain.cs" />
     <Compile Include="state2_saplings.cs" />
+    <Compile Include="state3_growing.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -120,6 +121,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\assets\tutorial.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\assets\terrenoAlaventa.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

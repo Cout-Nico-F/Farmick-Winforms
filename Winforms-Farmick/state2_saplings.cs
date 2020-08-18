@@ -11,16 +11,14 @@ namespace Winforms_Farmick
   {
     public state2_saplings(FarmButton context_FarmButton)
     {
-      context_FarmButton.Image = Resources.cultivo_terreno;
+      context_FarmButton.Image = Resources.cultivo_sembrado;
     }
     public state2_saplings() { }
     public void Poke(FarmButton context_FarmButton)
     {
       if (true)
       {
-        context_FarmButton.State = new state1_terrain(context_FarmButton);
-        //System.Windows.Forms.MessageBox.Show("Cambio a estado 0");
-        context_FarmButton.Image = Resources.cultivo_terreno;
+        context_FarmButton.State = new state3_growing(context_FarmButton);
       }
     }
   }

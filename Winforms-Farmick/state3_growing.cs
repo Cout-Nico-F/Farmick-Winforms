@@ -7,19 +7,18 @@ using Winforms_Farmick.Properties;
 
 namespace Winforms_Farmick
 {
-  class state1_terrain : State
+  class state3_growing : State
   {
-
-    public state1_terrain(FarmButton context_FarmButton)
+    public state3_growing(FarmButton context_FarmButton)
     {
-      context_FarmButton.Image = Resources.cultivo_terreno;
+      context_FarmButton.Image = Resources.cultivo_crecido;
     }
-    public state1_terrain() { }
+    public state3_growing() { }
     public void Poke(FarmButton context_FarmButton)
     {
       if (true)
       {
-        context_FarmButton.State = new state2_saplings(context_FarmButton);
+        context_FarmButton.State = new state1_terrain(context_FarmButton);
       }
     }
   }

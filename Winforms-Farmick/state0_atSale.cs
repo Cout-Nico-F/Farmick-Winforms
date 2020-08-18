@@ -12,11 +12,9 @@ namespace Winforms_Farmick
 {
   class state0_atSale : State
   {
-    //i need to change the sprite based on the state too
-
     public state0_atSale (FarmButton context_FarmButton)
     {
-      context_FarmButton.Image = Resources.cultivo_terreno;
+      context_FarmButton.Image = Resources.terrenoAlaventa; 
     }
     public state0_atSale() { }
     public void Poke(FarmButton context_FarmButton)
@@ -26,8 +24,6 @@ namespace Winforms_Farmick
       if (true)
       {
         context_FarmButton.State = new state1_terrain(context_FarmButton);
-        //System.Windows.Forms.MessageBox.Show("Cambio a estado 1");
-        context_FarmButton.Image = Resources.cultivo_arado;
       }
     }
   }
