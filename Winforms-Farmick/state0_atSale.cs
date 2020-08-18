@@ -21,10 +21,15 @@ namespace Winforms_Farmick
     {
       //you can buy this farms holding click spending coins.
       //(you have enough coins)? change_to_state1 : you_cant_buy_message
-      if ( true )
+      if (Player.Instance.Coins >= 100)
       {
         context_FarmButton.State = new state1_terrain(context_FarmButton);
+        Player.Instance.Coins -= 100;
+        Application.OpenForms["Form1"].Controls["label_coins"].Text = Player.Instance.Coins.ToString();
       }
+      else
+        //Sound indicating error or coins not enough
+        ;
     }
   }
 }

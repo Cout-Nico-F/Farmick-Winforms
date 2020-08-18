@@ -18,17 +18,15 @@ namespace Winforms_Farmick
     public Form1()
     {
       InitializeComponent();
-      
+      label_coins.Text = Player.Instance.Coins.ToString();
       this.Opacity = 0;
       btn_Tutorial.BringToFront();
       InitFarmButtons();
-
     }
 
     protected override void OnLoad(EventArgs e)
     {
       base.OnLoad(e);
-      
     }
 
     private void btn_farm_MouseDown(object sender, MouseEventArgs e)
@@ -72,6 +70,12 @@ namespace Winforms_Farmick
       this.btn_farm10.State = new state0_atSale();
       this.btn_farm11.State = new state0_atSale();
       this.btn_farm12.State = new state0_atSale();
+    }
+
+    public string LabelCoins
+    {
+      get { return label_coins.Text; }
+      set {label_coins.Text = value.ToString(); }
     }
   }
 }
