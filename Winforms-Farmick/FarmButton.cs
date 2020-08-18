@@ -8,11 +8,18 @@ using System.Windows.Forms;
 namespace Winforms_Farmick
 {
   //Context
-  class FarmButton : Button, IChange
+  public class FarmButton : Button
   {
-    public void Poke()
+    private State state;
+    public State State { get { return state; } set { this.state = value; } }
+    public FarmButton (State state)
     {
-      MessageBox.Show("Increible");
+      this.state = state;
+    }
+    public void Poke(FarmButton context_FarmButton)
+    {
+      state.Poke(context_FarmButton);
+      //delegate to concreteState
     }
   }
 }

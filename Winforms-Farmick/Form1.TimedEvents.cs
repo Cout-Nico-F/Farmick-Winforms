@@ -17,7 +17,7 @@ namespace Winforms_Farmick
     {
       timer_hold.Stop();
       System.Windows.Forms.Cursor.Current = System.Windows.Forms.Cursors.Hand;
-      actualButton.Poke();
+      actualButton.Poke(actualButton);
       actualButton.Image = Resources.cultivo_crecido;//placeholder action.
     }
     private void ChangeState_Hold(FarmButton button)

@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Winforms_Farmick
 {
-  public interface IChange
+  public interface State
   {
-    void Poke();
+    void Poke(FarmButton context_FarmButton);
   }
 }
