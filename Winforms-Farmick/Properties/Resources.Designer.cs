@@ -73,6 +73,16 @@ namespace Winforms_Farmick.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap botonmonedas {
+            get {
+                object obj = ResourceManager.GetObject("botonmonedas", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap click {
             get {
                 object obj = ResourceManager.GetObject("click", resourceCulture);
@@ -116,6 +126,26 @@ namespace Winforms_Farmick.Properties {
         internal static System.Drawing.Bitmap cultivo_terreno {
             get {
                 object obj = ResourceManager.GetObject("cultivo_terreno", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fondoBotonMonedas {
+            get {
+                object obj = ResourceManager.GetObject("fondoBotonMonedas", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fondoBotonMonedas1 {
+            get {
+                object obj = ResourceManager.GetObject("fondoBotonMonedas1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -118,29 +118,26 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="logo_grande" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>assets\logo_grande.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cultivo_sembrado" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>assets\cultivo_sembrado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mercado" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>assets\mercado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="cultivo_arado" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>assets\cultivo_arado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="tutorial1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="logo_grande" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>assets\logo_grande.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="terrenoAlaventa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>assets\terrenoAlaventa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cultivo_crecido" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>assets\cultivo_crecido.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tutorial" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>assets\tutorial.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="click" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>assets\click.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="tutorial" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>assets\tutorial.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cultivo_crecido" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>assets\cultivo_crecido.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="fondoBotonMonedas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>assets\fondoBotonMonedas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="background" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>assets\background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -148,7 +145,19 @@
   <data name="cultivo_terreno" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>assets\cultivo_terreno.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="terrenoAlaventa" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>assets\terrenoAlaventa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="mercado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>assets\mercado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cultivo_sembrado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>assets\cultivo_sembrado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tutorial1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>assets\tutorial.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botonmonedas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>assets\botonmonedas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondoBotonMonedas1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>assets\fondoBotonMonedas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

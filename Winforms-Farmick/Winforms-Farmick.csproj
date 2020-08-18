@@ -50,6 +50,7 @@
     <Compile Include="FarmButton.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Player.cs" />
     <Compile Include="State.cs" />
     <Compile Include="Form1.Fader.cs">
       <SubType>Form</SubType>
@@ -124,6 +125,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\assets\terrenoAlaventa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\assets\botonmonedas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\assets\fondoBotonMonedas.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

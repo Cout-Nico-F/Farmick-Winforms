@@ -21,7 +21,7 @@ namespace Winforms_Farmick
     {
       //you can buy this farms holding click spending coins.
       //(you have enough coins)? change_to_state1 : you_cant_buy_message
-      if (true)
+      if ( true )
       {
         context_FarmButton.State = new state1_terrain(context_FarmButton);
       }
